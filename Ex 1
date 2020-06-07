@@ -1,0 +1,28 @@
+#word = "rljgo3ifhpjf"
+#print(len(word))
+text = input("What is the genome?")
+pattern = input("What is the pattern")
+
+#x = text.count(pattern)
+#cuenta las veces que aparece un patrón dentro el Texto
+
+#print(x)
+PatternCount (text, pattern)
+
+count = 0
+tl = len(text)
+pl = len(pattern)
+i = 0
+k = 0
+
+    for i in range(0, (tl-pl))
+    for k in range(0, pl)
+    if text[i] = pattern[k]:
+        i = i + 1
+        k = k + 1
+        if k = pl
+            count = count + 1
+            k = 0
+    else: i = i + 1
+    
+print(tl , pl, count)
